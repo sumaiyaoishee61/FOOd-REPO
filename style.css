@@ -1,0 +1,155 @@
+body{
+    font-family:'Noto Serif', serif; 
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    background-color:sienna;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 70px;
+}
+ .half-wid{
+     width: 60%;
+     padding: 5%;
+ }
+ .half-wid img{
+    width: 80%;
+    border-radius: 10px;
+}
+.flexible-container{
+    display:flex;
+    margin-bottom: 100px;
+}
+.back-color{
+    color: skyblue;
+}
+
+.bellow-color{
+    color:sienna
+}
+.again-color{
+    color: coral;
+}
+.lower-added{
+    background-image: url(images/7.png);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    
+}
+.exprience-area{
+    background-size: cover;
+    
+}
+
+.recipe-item{
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left:20px ;
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px gray;
+    
+}
+
+
+
+#cooking-first{
+
+    border-image-slice: 1;
+}
+#cooking-second{
+    border-image-slice: 2; 
+    
+}
+#cooking-third{
+    border-image-slice: 3;
+}
+
+
+.half-mid img{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10%;
+   
+
+
+}
+.text-container{
+
+    flex-direction: row;
+}
+
+.text{
+	width: 100%;
+	height:280px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image: url(images/a16f805d-3439-4982-ba1e-38971ef578fb.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20px 0px 0px;
+}
+.text p{
+	color:white;
+	
+}
+.half-side{
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	
+}
+nav {
+	display: flex;
+	
+	align-items:center;
+	height:100px;
+    justify-content: space-between;
+	background-color:white;
+	box-shadow:2px 2px 12px gray;
+	padding:0px 5%;
+	
+}
+nav ul{
+	display: flex;
+}
+
+ 
+nav ul li a{
+	margin:10px;
+	color:#505050;
+	font-size: 15px;
+	font-weight:700;
+}
+.logo{
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
